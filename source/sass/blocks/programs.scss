@@ -1,0 +1,24 @@
+.programs {
+  text-align: center;
+  padding: 83px 20px 98px;
+}
+
+.programs__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 50px;
+  column-gap: 30px;
+}
+
+.programs__title {
+  font-size: 34px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.programs__description {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 70px;
+}

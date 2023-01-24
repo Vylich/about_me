@@ -1,0 +1,26 @@
+.button-language {
+  position: absolute;
+  z-index: 10;
+  rotate: 90deg;
+  bottom: -657px;
+  right: -35px;
+  font-size: 34px;
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  line-height: 42px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button-language--ru .ru,
+.button-language--eng .eng {
+  color: #000000;
+}
+
+.button-language--ru .eng,
+.button-language--eng .ru {
+  color: #828282;
+}
+

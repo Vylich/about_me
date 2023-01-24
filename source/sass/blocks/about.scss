@@ -1,0 +1,20 @@
+.about {
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 81px 29px 76px;
+}
+
+.about__title {
+  margin: 0;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.about__descr {
+  font-size: 18px;
+  margin: 0;
+
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
